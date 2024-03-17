@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+
 class WidgetHp extends StatelessWidget {
   String? text;
   Color? color;
   Function()? ontap;
-  WidgetHp({required this.text, required this.color,this.ontap});
+  WidgetHp({required this.text, required this.color, this.ontap});
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: ontap,
